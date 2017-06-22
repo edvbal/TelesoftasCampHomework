@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/rootLayoutMargin"
+    tools:context="com.example.android.homework1.MainActivity">
+
+    <!-- Stiliai aprasomi res/values/styles.xml, kad layout xml graziau atrodytu ir butu lengviau
+         modifikuoti dizaina ateityje.
+     -->
+
+    <TextView
+        android:id="@+id/responseTextView"
+        style="@style/responseTextView"
+        android:text="@string/helloWorldWelcomeMessage" />
+
+    <Button
+        android:id="@+id/read"
+        style="@style/buttons"
+        android:text="@string/read" />
+
+    <Button
+        android:id="@+id/removeOldData"
+        style="@style/buttons"
+        android:layout_marginLeft="@dimen/removeOldDataLeftMargin"
+        android:layout_toRightOf="@+id/read"
+        android:text="@string/removeOldDataButton" />
+
+    <Button
+        android:id="@+id/download"
+        style="@style/buttons"
+        android:layout_alignParentRight="true"
+        android:text="@string/download" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/progressBar"/>
+
+</RelativeLayout>

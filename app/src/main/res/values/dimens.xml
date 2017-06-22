@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dydziai views'ams -->
+    <dimen name="responseTextViewMarginTop">64dp</dimen>
+    <dimen name="rootLayoutMargin">16dp</dimen>
+    <dimen name="removeOldDataLeftMargin">32dp</dimen>
+    <!-- Dydziai tekstui -->
+    <dimen name="buttonTextSize">16sp</dimen>
+    <dimen name="welcomeTextView">32sp</dimen>
+
+</resources>
